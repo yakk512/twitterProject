@@ -17,11 +17,11 @@ $ rm twitteroauth-master.zip
 ```
 $ curl -sS https://getcomposer.org/installer | php
 ```
-2. composer.phar移動
+3. composer.phar移動
 ```
 $ sudo mv composer.phar /usr/local/bin/composer
 ```
-3. 1で作成したtwitterOAuthでcomposer.jsonを作成する
+4. 1で作成したtwitterOAuthでcomposer.jsonを作成する
 ```
 {
     "require": {
@@ -30,7 +30,7 @@ $ sudo mv composer.phar /usr/local/bin/composer
     }
 {
 ```
-4. composer インストール
+5. composer インストール
 ```
 $composer install
 ```
